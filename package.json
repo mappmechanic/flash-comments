@@ -1,0 +1,17 @@
+{
+  "name": "flash-comments",
+  "version": "0.0.2",
+  "description": "Flash Comments - An Open Source Vanilla JS commenting library client side & server side components",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mAppMechanic (Rahat Khanna)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "path": "^0.12.7",
+    "pusher": "^1.5.1"
+  }
+}
