@@ -29,7 +29,7 @@ OR
 
 3. Signup at [https://pusher.com/signup](https://pusher.com/signup).
 
-4. Create a new app to obtain the API Key, secret & appId.
+4. Create a new app to obtain the API Key, secret & appId. Also, I have chosen the cluster **'ap2 (Mumbai, India)**, but you will be required to choose a cluster specific to your app users.
 
 Replace the respective key, secret & appId for pusher initialisation in **server.js** file with your values:
 
