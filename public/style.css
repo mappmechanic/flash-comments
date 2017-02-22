@@ -61,6 +61,61 @@ section{
     padding: 4px;
 }
 
+
+.flash-comments form{
+    margin-bottom: 0px;
+}
+
+.flash-comments .comment-form{
+    display: flex;
+    padding: 6px;
+    border-bottom:1px solid #eaeaea;
+}
+
+.comment-form .left-side{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+.comment-form .left-side .row{
+    flex: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+.comment-form .left-side .row input{
+    height: 32px;
+    width: 50%;
+}
+
+.comment-form .left-side .row textarea{
+    height: 42px;
+    margin-top:8px;
+}
+
+.comment-form .right-side{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+
+.comment-form .right-side button{
+    white-space: pre-wrap;
+}
+
+.comment-form textarea{
+    width:100%;
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
 @media(max-width:980px){
     .flash-comments{
         width: 100%;
@@ -126,62 +181,8 @@ section{
     font-size: 13px;
 }
 
-.flash-comments form{
-    margin-bottom: 0px;
-}
-
-.flash-comments .comment-form{
-    display: flex;
-    padding: 6px;
-    border-bottom:1px solid #eaeaea;
-}
-
-.comment-form .left-side{
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    padding-right: 5px;
-}
-
-.comment-form .left-side .row{
-    flex: 0 auto;
-    display: flex;
-    align-content: center;
-}
-
-.comment-form .left-side .row input{
-    height: 32px;
-    width: 50%;
-}
-
-.comment-form .left-side .row textarea{
-    height: 42px;
-    margin-top:8px;
-}
-
-.comment-form .right-side{
-    flex:1;
-    display: flex;
-    justify-content: center;
-}
-
-.comment-form .right-side button{
-    white-space: pre-wrap;
-}
-
-.comment-form textarea{
-    width:100%;
-}
-
-.button-secondary {
-    background: rgb(66, 184, 221); /* this is a light blue */
-    color: white;
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-
-.comment{
+/* CSS Code for Animating Comment Element */
+.flash-comments .comment{
   animation: animationFrames ease 1s;
   animation-iteration-count: 1;
   transform-origin: 50% 50%;
