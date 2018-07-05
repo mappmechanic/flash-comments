@@ -1,6 +1,8 @@
 # flash-comments
 Flash Comments - Realtime Live Commenting using Pusher &amp; Websockets
 
+[View tutorial](https://pusher.com/tutorials/live-comments-javascript)
+
 ## Prerequisite Softwares
 - NodeJS
 - NPM
